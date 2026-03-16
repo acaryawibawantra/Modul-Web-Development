@@ -17,10 +17,10 @@ Selamat datang di materi Web Foundations! Modul ini dirancang untuk memberikan p
 
 Kode lengkap study case ada di folder:
 
-- `Event Registration Mini Site`
+- [Event Registration Mini Site](./event-registration-mini-site/)
 
 ## Cara Menggunakan Modul
 
 1. Baca modul 1.1 sampai 1.3 untuk memahami konsep dasar.
-2. Lihat implementasi konkretnya di `Event Registration Mini Site`.
+2. Lihat implementasi konkretnya di - [Modul HTML,CSS & JS] {./modul-web-foundations/}
 3. Ikuti instruksi di Modul 1.4 untuk mengembangkan mini site versimu sendiri.
