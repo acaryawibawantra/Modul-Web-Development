@@ -22,5 +22,5 @@ Kode lengkap study case ada di sini:
 ## Cara Menggunakan Modul
 
 1. Baca modul 1.1 sampai 1.3 untuk memahami konsep dasar.
-2. Lihat implementasi konkretnya di - [Modul HTML,CSS & JS] (./modul-web-foundations/.README.md)
+2. Lihat materi lengkapnya di [Modul HTML, CSS & JS](./modul-web-foundations/README.md)
 3. Ikuti instruksi di Modul 1.4 untuk mengembangkan mini site versimu sendiri.
