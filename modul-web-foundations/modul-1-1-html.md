@@ -15,7 +15,7 @@ TocOpen: false
 
 Komputer yang terhubung ke internet disebut sebagai **client** (klien) dan **server**. Diagram sederhana interaksi keduanya terlihat seperti ini:
 
-![Interaksi Client dan Server](/images/modul-web-foundations/image-1.png)
+![Interaksi Client dan Server](/modul-web-foundations/image-1.png)
 
 *   **Client**: Perangkat pengguna yang terhubung ke internet (seperti laptop atau ponsel) dan perangkat lunak pengakses web (seperti browser Chrome atau Firefox).
 *   **Server**: Komputer yang menyimpan halaman web, aplikasi, atau data. Ketika client meminta akses, server akan mengirimkan salinan data tersebut untuk ditampilkan di browser pengguna.
