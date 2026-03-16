@@ -6,9 +6,9 @@ Selamat datang di materi Web Foundations! Modul ini dirancang untuk memberikan p
 
 | Modul | Topik | Link |
 |-------|-------|------|
-| 1.1 | **HTML Foundations** | [Lihat Modul](./modul-1-1-html.md) |
-| 1.2 | **CSS Foundations** | [Lihat Modul](./modul-1-2-css.md) |
-| 1.3 | **JavaScript Foundations** | [Lihat Modul](./modul-1-3-js.md) |
+| 1.1   | **HTML Foundations** | [Lihat Modul](./modul-web-foundations/modul-1-1-html.md)            |
+| 1.2   | **CSS Foundations**  | [Lihat Modul](./modul-web-foundations/modul-1-2-css.md)             |
+| 1.3   | **JavaScript Foundations** | [Lihat Modul](./modul-web-foundations/modul-1-3-js.md)    |
 
 ## Apa yang akan dipelajari?
 1. **HTML**: Membangun kerangka dan struktur halaman web.
