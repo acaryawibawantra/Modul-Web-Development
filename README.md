@@ -15,12 +15,12 @@ Selamat datang di materi Web Foundations! Modul ini dirancang untuk memberikan p
 2. **CSS**: Memberikan gaya, warna, dan tata letak yang menarik.
 3. **JS**: Menambahkan logika dan interaktivitas pada website.
 
-Kode lengkap study case ada di folder:
+Kode lengkap study case ada di sini:
 
-- [Event Registration Mini Site](./event-registration-mini-site/)
+- [GDGoC ITS – Event Registration Mini Site](./event-registration-mini-site/README.md)
 
 ## Cara Menggunakan Modul
 
 1. Baca modul 1.1 sampai 1.3 untuk memahami konsep dasar.
-2. Lihat implementasi konkretnya di - [Modul HTML,CSS & JS] {./modul-web-foundations/}
+2. Lihat implementasi konkretnya di - [Modul HTML,CSS & JS] (./modul-web-foundations/.README.md)
 3. Ikuti instruksi di Modul 1.4 untuk mengembangkan mini site versimu sendiri.
