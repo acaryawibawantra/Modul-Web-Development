@@ -15,12 +15,12 @@ TocOpen: false
 
 Komputer yang terhubung ke internet disebut sebagai **client** (klien) dan **server**. Diagram sederhana interaksi keduanya terlihat seperti ini:
 
-![Interaksi Client dan Server](/images/web-foundations/image-1.png)
+![Interaksi Client dan Server](/images/modul-web-foundations/image-1.png)
 
 *   **Client**: Perangkat pengguna yang terhubung ke internet (seperti laptop atau ponsel) dan perangkat lunak pengakses web (seperti browser Chrome atau Firefox).
 *   **Server**: Komputer yang menyimpan halaman web, aplikasi, atau data. Ketika client meminta akses, server akan mengirimkan salinan data tersebut untuk ditampilkan di browser pengguna.
 
-![Alur Request dan Response](/images/web-foundations/image.png)
+![Alur Request dan Response](/images/modul-web-foundations/image.png)
 
 ### Alur Singkat:
 1. Setiap client dan server memiliki alamat unik di internet yang disebut **IP Address**.
@@ -45,7 +45,7 @@ HTML adalah bahasa markup standar yang digunakan untuk menentukan struktur sebua
 
 ## Anatomi Elemen HTML
 
-![Anatomi Elemen HTML](/images/web-foundations/image-2.png)
+![Anatomi Elemen HTML](/images/modul-web-foundations/image-2.png)
 
 1.  **Opening Tag (Tag Pembuka)**: Nama elemen yang dibungkus kurung sudut (misal: `<p>`). Ini menandakan awal elemen.
 2.  **Content (Konten)**: Isi dari elemen tersebut.
