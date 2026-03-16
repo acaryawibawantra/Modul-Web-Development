@@ -17,7 +17,7 @@ Selamat datang di materi Web Foundations! Modul ini dirancang untuk memberikan p
 
 Kode lengkap study case ada di sini:
 
-- [GDGoC ITS – Event Registration Mini Site](./event-registration-mini-site/README.md)
+- [GDGoC ITS – Event Registration Mini Site](./Event%20Registration%20Mini%20Site/README.md)
 
 ## Cara Menggunakan Modul
 
