@@ -2,6 +2,16 @@
 
 Pada pertemuan pertama Web Development, kamu diminta untuk membuat **sebuah mini website** menggunakan **HTML, CSS, dan JavaScript** berdasarkan materi Web Foundations (modul 1.1–1.3).
 
+## 🔗 Shortcut
+
+- Modul 1.1 – HTML Foundations: [Lihat Modul](./modul-web-foundations/modul-1-1-html.md) 
+
+- Modul 1.2 – CSS Foundations: [Lihat Modul](./modul-web-foundations/modul-1-2-css.md) 
+
+- Modul 1.3 – JavaScript Foundations: [Lihat Modul](./modul-web-foundations/modul-1-3-js.md)
+
+- Pengumpulan Tugas 1 (GitHub Classroom): GitHub Classroom – Tugas 1 ↗
+
 ## Tujuan Tugas
 
 - Melatih pemahaman dasar struktur HTML.
