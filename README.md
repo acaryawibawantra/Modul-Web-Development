@@ -14,11 +14,11 @@ Selamat datang di materi Web Foundations! Modul ini dirancang untuk memberikan p
 
 | Tugas   | Modul Terkait | Deskripsi Singkat                                             | Pengumpulan                                                                                         |
 |---------|---------------|---------------------------------------------------------------|-----------------------------------------------------------------------------------------------------|
-| Tugas 1 | 1.1–1.3       | Membuat mini website dengan HTML, CSS, dan JavaScript dasar. | Di dalam repository GitHub masing-masing (GitHub Classroom), pada folder `tugas-1/` atau `pertemuan-1/`. |
-| Tugas 2 | –             | Akan diinformasikan pada pertemuan berikutnya.               | Di repository yang sama, pada folder `tugas-2/` atau `pertemuan-2/`.                               |
-| Tugas 3 | –             | Akan diinformasikan pada pertemuan berikutnya.               | Di repository yang sama, pada folder `tugas-3/` atau `pertemuan-3/`.                               |
-| Tugas 4 | –             | Akan diinformasikan pada pertemuan berikutnya.               | Di repository yang sama, pada folder `tugas-4/` atau `pertemuan-4/`.                               |
-| Tugas 5 | –             | Akan diinformasikan pada pertemuan berikutnya.               | Di repository yang sama, pada folder `tugas-5/` atau `pertemuan-5/`.                               |
+| Tugas 1 | 1.1–1.3       | Membuat mini website dengan HTML, CSS, dan JavaScript dasar. | [Github Clasroom](https://classroom.github.com/a/QyWg19ecDi) dalam repository GitHub masing-masing (GitHub Classroom), pada folder `tugas-1/`. |
+| Tugas 2 | –             | Akan diinformasikan pada pertemuan berikutnya.               | Di repository yang sama, pada folder `tugas-2/`.                               |
+| Tugas 3 | –             | Akan diinformasikan pada pertemuan berikutnya.               | Di repository yang sama, pada folder `tugas-3/`.                               |
+| Tugas 4 | –             | Akan diinformasikan pada pertemuan berikutnya.               | Di repository yang sama, pada folder `tugas-4/`.                               |
+| Tugas 5 | –             | Akan diinformasikan pada pertemuan berikutnya.               | Di repository yang sama, pada folder `tugas-5/`.                               |
 
 
 ### Cara Pengumpulan Tugas
