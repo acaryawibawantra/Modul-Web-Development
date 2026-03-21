@@ -43,13 +43,10 @@ Pada pertemuan pertama Web Development, kamu diminta untuk membuat **sebuah mini
 ## Tema / Study Case
 
 Kamu boleh:
-- Menjadikan **“Event Registration Mini Site”** sebagai inspirasi, atau
-- Membuat tema sendiri, misalnya:
-  - Portfolio sederhana
-  - Landing page event
-  - Halaman informasi komunitas
-  - dsb.
 
+- Membuat **“Event Registration Mini Site”** versi punya mu sendiri.
+- Melihat contoh struktur di repo: [Event Registration Mini Site](https://github.com/acaryawibawantra/Modul-Web-Development/tree/main/Event%20Registration%20Mini%20Site)
+- [Live Demo](https://www.acaryawibawantra.xyz/web-foundations-workshop/)
 ## Cara Pengumpulan
 
 1. Buka link **GitHub Classroom Tugas 1** yang dibagikan di grup.
