@@ -22,15 +22,12 @@ Pada pertemuan pertama Web Development, kamu diminta untuk membuat **sebuah mini
 
 ## Ketentuan Tugas
 
-1. Tugas dikerjakan di **repository utama** yang dibagikan melalui **GitHub Classroom**.
-2. Buat folder khusus untuk tugas ini di dalam repository:
-   - Disarankan: `tugas-1/`  
-     (boleh juga `pertemuan-1/` asalkan konsisten dengan instruksi di kelas).
-3. Struktur minimal di dalam folder tugas:
+1. Tugas dikerjakan di **repository akun Github masing-masing** yang diberi nama GDGoC-WebDev-Nama *(contoh: https://github.com/fuhuavl/GDGOC-WebDev-AlhauraHarsanto.git)*
+2. Buat folder khusus untuk tugas ini di dalam repository dengan nama `tugas-1/`
+3. Struktur **minimal** di dalam folder tugas (boleh lebih, dibebaskan):
    - `index.html`
    - `style.css`
    - `script.js`
-   - (opsional) folder `assets/` untuk gambar, icon, dll.
 4. Website harus memiliki minimal:
    - 1 halaman utama dengan:
      - Header (judul / nama event / nama website)
@@ -44,26 +41,25 @@ Pada pertemuan pertama Web Development, kamu diminta untuk membuat **sebuah mini
 
 ## Tema / Study Case
 
-Kamu boleh:
+### Event Registration Mini Site
 
-- Membuat **“Event Registration Mini Site”** versi punya mu sendiri.
+- Membuat **“Event Registration Mini Site”** 
 - Melihat contoh struktur di repo: [Event Registration Mini Site](https://github.com/acaryawibawantra/Modul-Web-Development/tree/main/Event%20Registration%20Mini%20Site)
 - [Live Demo](https://www.acaryawibawantra.xyz/web-foundations-workshop/)
 ## Cara Pengumpulan
 
-1. Buka link **GitHub Classroom Tugas 1** yang dibagikan di grup.
-2. Klik **“Accept assignment”** dan tunggu sampai repository utama kamu dibuat.
-3. Clone repository ke komputer lokal.
-4. Buat folder `tugas-1/` dan kerjakan seluruh file tugas di dalam folder tersebut.
-5. Setelah selesai:
+1. Buat folder `tugas-1/` dan kerjakan seluruh file tugas di dalam folder tersebut.
+2. Setelah selesai:
    - `git add .`
-   - `git commit -m "Tugas 1 - Mini Website"`
+   - `git commit -m "feat: Tugas 1 - Event Registration Mini Site"`
    - `git push`
-6. Pastikan:
+3. Pastikan:
    - Folder `tugas-1/` sudah berisi `index.html`, `style.css`, `script.js`.
    - Perubahan sudah ter-push ke GitHub sebelum deadline.
+4. Submit link repo pada link Google Form berikut: [Pengumpulan Tugas 1](https://its.id/m/GDGoC-WebDev-Tugas1)
+5. Deadline: **Rabu, 8 April 2026 pukul 23.59**
+6. Jika ada yang ingin ditanyakan bisa langsung chat ke grup Webdev GDGoC atau CP: [Alhaura RH](wa.me/6281291493133), [Acarya](wa.me/628989124150)
 
-## Deadline
+# Selamat Mengerjakan!
 
-- Deadline: **[isi tanggal & jam di sini]**
-- Keterlambatan: **[isi aturan kalau telat, misalnya: pengurangan nilai / tidak diterima]**
+
