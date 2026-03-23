@@ -22,7 +22,7 @@ Pada pertemuan pertama Web Development, kamu diminta untuk membuat **sebuah mini
 
 ## Ketentuan Tugas
 
-1. Tugas dikerjakan di **repository akun Github masing-masing** yang diberi nama GDGoC-WebDev-Nama *(contoh: https://github.com/fuhuavl/GDGOC-WebDev-AlhauraHarsanto.git)*
+1. Tugas dikerjakan di **repository akun Github masing-masing** yang diberi nama GDGoC-WebDev-Nama *(contoh: https://github.com/fuhuavl/GDGoC-WebDev-AlhauraHarsanto.git)*
 2. Buat folder khusus untuk tugas ini di dalam repository dengan nama `tugas-1/`
 3. Struktur **minimal** di dalam folder tugas (boleh lebih, dibebaskan):
    - `index.html`
