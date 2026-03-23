@@ -56,7 +56,7 @@ Pada pertemuan pertama Web Development, kamu diminta untuk membuat **sebuah mini
 3. Pastikan:
    - Folder `tugas-1/` sudah berisi `index.html`, `style.css`, `script.js`.
    - Perubahan sudah ter-push ke GitHub sebelum deadline.
-4. Submit link repo pada link Google Form berikut: [Pengumpulan Tugas 1](https://its.id/m/GDGoC-WebDev-Tugas1)
+4. Submit link repository folder tugas 1 pada link Google Form berikut: [Pengumpulan Tugas 1](https://its.id/m/GDGoC-WebDev-Tugas1)
 5. Deadline: **Rabu, 8 April 2026 pukul 23.59**
 6. Jika ada yang ingin ditanyakan bisa langsung chat ke grup Webdev GDGoC atau CP: [Alhaura RH](wa.me/6281291493133), [Acarya](wa.me/628989124150)
 
