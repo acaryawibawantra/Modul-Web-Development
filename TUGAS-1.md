@@ -12,6 +12,9 @@ Pada pertemuan pertama Web Development, kamu diminta untuk membuat **sebuah mini
 
 - Pengumpulan dilakukan melalui Google Form:
   - [GDGoC Web Development – Tugas 1](https://its.id/m/GDGoC-WebDev-Tugas1)
+ 
+- Tutorial Video:
+  - [Link Tutorial](https://its.id/m/GDGoC-WebDev-Tutorial-Tugas)
 
 
 ## Tujuan Tugas
