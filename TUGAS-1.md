@@ -10,8 +10,8 @@ Pada pertemuan pertama Web Development, kamu diminta untuk membuat **sebuah mini
 
 - Modul 1.3 – JavaScript Foundations: [Lihat Modul](./modul-web-foundations/modul-1-3-js.md)
 
-- Pengumpulan dilakukan melalui GitHub Classroom:
-  - Link GitHub Classroom: [Tugas 1 – Mini Website HTML CSS JS](https://classroom.github.com/a/QyWg19ec)
+- Pengumpulan dilakukan melalui Google Form:
+  - [GDGoC Web Development – Tugas 1](https://its.id/m/GDGoC-WebDev-Tugas1)
 
 
 ## Tujuan Tugas
