@@ -14,7 +14,7 @@ Selamat datang di materi Web Foundations! Modul ini dirancang untuk memberikan p
 
 | Tugas   | Modul Terkait | Deskripsi Singkat                                             | Pengumpulan                                                                                         |
 |---------|---------------|---------------------------------------------------------------|-----------------------------------------------------------------------------------------------------|
-| Tugas 1 | 1.1–1.3       | Membuat mini website dengan HTML, CSS, dan JavaScript dasar. | [Github Clasroom](https://classroom.github.com/a/QyWg19ec) dalam repository GitHub masing-masing (GitHub Classroom), pada folder `tugas-1/`. |
+| Tugas 1 | 1.1–1.3       | Membuat mini website dengan HTML, CSS, dan JavaScript dasar. | [Google Form] (https://its.id/m/GDGoC-WebDev-Tugas1), pada folder `tugas-1/`. |
 | Tugas 2 | –             | Akan diinformasikan pada pertemuan berikutnya.               | Di repository yang sama, pada folder `tugas-2/`.                               |
 | Tugas 3 | –             | Akan diinformasikan pada pertemuan berikutnya.               | Di repository yang sama, pada folder `tugas-3/`.                               |
 | Tugas 4 | –             | Akan diinformasikan pada pertemuan berikutnya.               | Di repository yang sama, pada folder `tugas-4/`.                               |
@@ -23,13 +23,11 @@ Selamat datang di materi Web Foundations! Modul ini dirancang untuk memberikan p
 
 ### Cara Pengumpulan Tugas
 
-- Semua tugas (Tugas 1 sampai Tugas 5) dikumpulkan melalui **GitHub Classroom**.
-- Peserta hanya akan mendapatkan **1 repository utama** dari GitHub Classroom untuk seluruh rangkaian Web Foundations.
+- Semua tugas (Tugas 1 sampai Tugas 5) dikumpulkan melalui **Google Form**.
 - Di dalam repository tersebut, kerjakan setiap tugas pada folder terpisah, misalnya:
   - `tugas-1/` atau `pertemuan-1/`
   - `tugas-2/` atau `pertemuan-2/`
   - dan seterusnya sampai Tugas 5.
-- Setelah klik link dan _accept assignment_, GitHub Classroom akan membuat repository utama untuk kamu.
 - Kerjakan tugas di folder yang sesuai, lalu `git add`, `git commit`, dan `git push` sebelum deadline.
 
 
