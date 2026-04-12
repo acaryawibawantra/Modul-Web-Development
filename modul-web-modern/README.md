@@ -54,10 +54,6 @@ Dengan kata lain: **Modul 1 = fondasi**, **Modul 2 = cara modern membangun di at
    - lalu ke Next.js,
    - dan ditutup dengan Tailwind CSS.
 
-2. Saat membaca, coba hubungkan dengan pengalamanmu menulis HTML, CSS, dan JavaScript di Modul 1.  
-   Tanyakan pada diri sendiri:  
-   *“Bagian mana dari proses manual yang bisa dipermudah oleh React / Next.js / Tailwind?”*
-
 3. Ikuti contoh kode atau diagram yang disertakan di tiap modul.  
    Kamu bisa mencoba mengimplementasikan ulang contoh tersebut di text editor atau proyek kecilmu sendiri.
 
