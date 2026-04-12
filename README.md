@@ -10,6 +10,18 @@ Selamat datang di materi Web Foundations! Modul ini dirancang untuk memberikan p
 | 1.2   | **CSS Foundations**  | [Lihat Modul](./modul-web-foundations/modul-1-2-css.md)             |
 | 1.3   | **JavaScript Foundations** | [Lihat Modul](./modul-web-foundations/modul-1-3-js.md)    |
 
+## Modul 2 – Web Modern
+
+Modul ini adalah lanjutan dari Web Foundations dan fokus pada ekosistem web modern: library, framework, React, Next.js, dan Tailwind CSS.
+
+| Modul | Topik | Link |
+| --- | --- | --- |
+| 2.1 | **Library vs Framework** | [Lihat Modul](modul-web-modern/modul-2-1-library-vs-framework.md) |
+| 2.2 | **Pengenalan React** | [Lihat Modul](modul-web-modern/modul-2-2-react-introduction.md) |
+| 2.3 | **Pengenalan Next.js** | [Lihat Modul](modul-web-modern/modul-2-3-nextjs-foundations.md) |
+| 2.4 | **Tailwind CSS Foundations** | [Lihat Modul](modul-web-modern/modul-2-4-tailwind-foundations.md) |
+
+
 ## Pengumpulan Tugas
 
 | Tugas   | Modul Terkait | Deskripsi Singkat                                             | Pengumpulan                                                                                         |
