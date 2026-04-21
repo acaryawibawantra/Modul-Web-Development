@@ -143,10 +143,68 @@ Di modul selanjutnya (Modul 2.3), kita akan melihat:
   - Struktur folder yang jelas,
   - Fitur tambahan seperti server-side rendering dan lainnya.
 
-Untuk sekarang, cukup pahami dulu bahwa:
-
+Kesimpulan:
 - **React** = library untuk membangun UI dengan komponen.
 - **Next.js** = framework yang menggunakan React di dalamnya dan menambahkan banyak fitur untuk membangun aplikasi web modern.
 
-Saat kamu melihat kode Next.js nanti, ingatlah:  
-“Di balik semua ini, kita sebenarnya sedang menulis **komponen React**.”
+---
+
+## Lampiran: Setup Project React Sederhana (Tanpa Next.js)
+
+Bagian ini opsional, tapi bisa kamu ikuti kalau ingin langsung mencoba React di laptopmu.
+
+Kita akan membuat project React sederhana menggunakan **Vite** dan **JavaScript (tanpa TypeScript dulu)**.
+
+### 1. Persiapan Awal
+
+Pastikan:
+
+- Node.js sudah terpasang di komputer.
+- Kamu bisa membuka **terminal** (Command Prompt / PowerShell / Terminal / VS Code terminal).
+
+Untuk mengecek Node.js, jalankan:
+
+```bash
+node -v
+```
+
+Kalau muncul versi (misalnya ‎`v20.x.x`), berarti sudah siap.
+
+2. Membuat Project React Baru dengan Vite ￼
+
+Di terminal, jalankan perintah berikut:
+
+```bash
+npm create vite@latest my-react-app -- --template react
+```
+
+Penjelasan singkat:
+
+- ‎`my-react-app` → nama folder project (boleh kamu ganti).
+
+- ‎`--template react` → kita pilih template React + JavaScript.
+
+Setelah perintah jalan, kamu akan diminta beberapa pilihan:
+
+- Project name → tekan Enter saja kalau sudah sesuai.
+
+- Template → pilih ‎`React` (bukan TypeScript).
+
+
+Lalu masuk ke folder project:
+```bash
+cd my-react-app
+npm install
+```
+
+3. Menjalankan Project React
+```bash
+npm run dev
+```
+
+Terminal akan menampilkan alamat, misalnya:
+```bash
+http://localhost:5173/
+```
+
+
