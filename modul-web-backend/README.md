@@ -13,9 +13,10 @@ Di Modul 3, fokus kita adalah memahami **fondasi backend** sebelum nanti lanjut 
 
 | Modul | Topik | Link |
 | --- | --- | --- |
-| 3.1 | **Konsep Backend & Arsitektur Web Modern** | _coming soon_ |
-| 3.2 | **Pengenalan Node.js & npm + Script CLI Sederhana** | _coming soon_ |
-| 3.3 | **REST API Dasar dengan Node.js (Express, tanpa Database)** | _coming soon_ |
+| 3.1 | **Konsep Backend & Arsitektur Web Modern** | [Lihat Modul](modul-3-1-backend-introduction.md) |
+| 3.2 | **Pengenalan Node.js & npm + Script CLI Sederhana** | [Lihat Modul](modul-3-2-nodejs-npm-cli.md) |
+| 3.3 | **REST API Dasar dengan Node.js (Express, tanpa Database)** | [Lihat Modul](modul-3-3-rest-api-express.md) |
+
 
 ## Apa yang akan dipelajari?
 
