@@ -21,6 +21,17 @@ Modul ini adalah lanjutan dari Web Foundations dan fokus pada ekosistem web mode
 | 2.3 | **Pengenalan Next.js** | [Lihat Modul](modul-web-modern/modul-2-3-nextjs-foundations.md) |
 | 2.4 | **Tailwind CSS Foundations** | [Lihat Modul](modul-web-modern/modul-2-4-tailwind-foundations.md) |
 
+---
+
+## Daftar Materi Modul 3
+
+| Modul | Topik | Link |
+| --- | --- | --- |
+| 3.1 | **Konsep Backend & Arsitektur Web Modern** | [Lihat Modul](modul-3-1-backend-introduction.md) |
+| 3.2 | **Pengenalan Node.js & npm + Script CLI Sederhana** | [Lihat Modul](modul-3-2-nodejs-npm-cli.md) |
+| 3.3 | **REST API Dasar dengan Node.js (Express, tanpa Database)** | [Lihat Modul](modul-3-3-rest-api-express.md) |
+
+---
 
 ## Pengumpulan Tugas
 
