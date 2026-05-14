@@ -177,7 +177,7 @@ Kalau ‎`id` tidak ada, API akan mengembalikan status ‎`404`.
 ## 6. Endpoint: POST /api/tasks (Create) ￼
 
 Sekarang kita tambahkan endpoint untuk menambah task baru.
-```
+```js
 // POST /api/tasks - buat task baru
 app.post("/api/tasks", (req, res) => {
   const { title } = req.body;
