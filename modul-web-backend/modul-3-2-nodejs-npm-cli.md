@@ -180,6 +180,8 @@ npm run start -- 3 4
 ```
 npm akan menjalankan ‎`node index.js 3 4`.
 
+link youtube belajar : https://youtu.be/LuY3f978a-A?si=y7zPR6YvTqJj4-Zu
+
 ---
 
 ## 7. Menghubungkan ke Learning Path
