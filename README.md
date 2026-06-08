@@ -33,6 +33,16 @@ Modul ini adalah lanjutan dari Web Foundations dan fokus pada ekosistem web mode
 
 ---
 
+## Daftar Materi Modul 4
+
+| Modul | Topik | Link |
+| --- | --- | --- |
+| 4.1 | **Pengenalan Database & Prisma ORM** | [Lihat Modul](modul-web-fullstack/modul-4-1-database-prisma.md) |
+| 4.2 | **REST API + Database (Express + Prisma)** | [Lihat Modul](modul-web-fullstack/modul-4-2-rest-api-database.md) |
+| 4.3 | **Full-Stack Integration (Next.js + API)** | [Lihat Modul](modul-web-fullstack/modul-4-3-fullstack-integration.md) |
+
+---
+
 ## Pengumpulan Tugas
 
 | Tugas   | Modul Terkait | Deskripsi Singkat                                             | Pengumpulan                                                                                         |
