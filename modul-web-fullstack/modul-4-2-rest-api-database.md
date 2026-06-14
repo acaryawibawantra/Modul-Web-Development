@@ -462,7 +462,57 @@ node index.js
 curl http://localhost:3000/api/events
 # Data masih ada karena tersimpan di database
 ```
+### Testing dengan Bruno
 
+Selain curl, kamu bisa test API menggunakan **Bruno** (download di [usebruno.com](https://www.usebruno.com)).
+
+1. Buka Bruno, klik **Create Collection**, beri nama `Event Registration API`.
+
+2. **GET semua event:**
+   - Klik **New Request**, nama: `GET All Events`
+   - Method: **GET**
+   - URL: `http://localhost:3000/api/events`
+   - Klik **Send**
+
+3. **POST event baru:**
+   - Klik **New Request**, nama: `POST Create Event`
+   - Method: **POST**
+   - URL: `http://localhost:3000/api/events`
+   - Klik tab **Body** → pilih **JSON**
+   - Isi:
+   ```json
+   {
+     "title": "Info Session",
+     "date": "2026-09-01T10:00:00",
+     "location": "Online via Zoom"
+   }
+   ```
+   - Klik **Send**
+
+4. **POST daftarkan participant:**
+   - Klik **New Request**, nama: `POST Register Participant`
+   - Method: **POST**
+   - URL: `http://localhost:3000/api/participants`
+   - Klik tab **Body** → pilih **JSON**
+   - Isi:
+   ```json
+   {
+     "name": "Dewi Lestari",
+     "email": "dewi@example.com",
+     "eventId": 1
+   }
+   ```
+   - Klik **Send**
+
+5. **Cek data lengkap:**
+   - Kembali ke request `GET All Events`, klik **Send**
+   - Sekarang event beserta participant-nya muncul
+
+6. **Test data persisten:**
+   - Stop server (`Ctrl+C`), jalankan lagi (`node index.js`)
+   - Kembali ke Bruno, klik **Send** di `GET All Events`
+   - Data masih ada!
+     
 ---
 
 ## 9. Perbandingan: Sebelum vs Sesudah Database
