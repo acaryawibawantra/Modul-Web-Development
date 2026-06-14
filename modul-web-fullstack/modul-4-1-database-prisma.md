@@ -101,8 +101,8 @@ npm init -y
 3. Install Prisma sebagai dev dependency dan Prisma Client:
 
 ```bash
-npm install prisma --save-dev
-npm install @prisma/client
+npm install prisma@5 --save-dev
+npm install @prisma/client@5
 ```
 
 4. Inisialisasi Prisma dengan SQLite:
