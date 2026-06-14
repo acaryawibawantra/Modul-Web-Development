@@ -33,8 +33,8 @@ npm init -y
 3. Install dependencies:
 
 ```bash
-npm install express @prisma/client
-npm install prisma --save-dev
+npm install express cors @prisma/client@5
+npm install prisma@5 --save-dev
 ```
 
 4. Inisialisasi Prisma:
@@ -118,6 +118,7 @@ Buat `index.js`:
 ```js
 // index.js
 const express = require("express");
+const cors = require("cors");
 const { PrismaClient } = require("@prisma/client");
 
 const app = express();
@@ -125,6 +126,7 @@ const prisma = new PrismaClient();
 const PORT = 3000;
 
 // Middleware
+app.use(cors());
 app.use(express.json());
 
 // Simpan prisma di app supaya bisa diakses di routes
@@ -143,7 +145,7 @@ app.get("/", (req, res) => {
 });
 
 app.listen(PORT, () => {
-  console.log(\`Server berjalan di http://localhost:\${PORT}\`);
+  console.log(`Server berjalan di http://localhost:${PORT}`);
 });
 ```
 
@@ -152,6 +154,7 @@ Perhatikan perbedaan dengan Modul 3.3:
 - Tidak ada lagi array `let tasks = [...]` — data ada di database.
 - Routes dipisah ke file sendiri.
 - Prisma Client diinisialisasi sekali dan di-share ke semua routes.
+- CORS sudah diaktifkan agar frontend bisa mengakses API.
 
 ---
 
@@ -416,7 +419,7 @@ node seed.js
 Jalankan server:
 
 ```bash
-npm run start
+node index.js
 ```
 
 Coba semua endpoint dengan Postman, Bruno, atau curl:
@@ -455,7 +458,7 @@ curl -X POST http://localhost:3000/api/participants \
 
 ```bash
 # Ctrl+C untuk stop server
-npm run start
+node index.js
 curl http://localhost:3000/api/events
 # Data masih ada karena tersimpan di database
 ```
