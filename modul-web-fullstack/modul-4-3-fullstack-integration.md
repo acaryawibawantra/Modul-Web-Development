@@ -209,32 +209,20 @@ Buka `http://localhost:3001` — kamu akan melihat... **error CORS!** Ini normal
 
 Browser memblokir request dari `localhost:3001` (frontend) ke `localhost:3000` (backend) karena **CORS (Cross-Origin Resource Sharing)**.
 
-Kembali ke project backend (`event-registration-api`):
+Kalau kamu mengikuti Modul 4.2, CORS sudah diinstall dan diaktifkan di `index.js` backend. Pastikan di project backend (`event-registration-api`) sudah ada:
+
+```js
+const cors = require("cors");
+app.use(cors());
+```
+
+Kalau belum, kembali ke project backend dan jalankan:
 
 ```bash
 npm install cors
 ```
 
-Update `index.js` di backend — tambahkan middleware CORS:
-
-```js
-// index.js (backend)
-const express = require("express");
-const cors = require("cors");
-const { PrismaClient } = require("@prisma/client");
-
-const app = express();
-const prisma = new PrismaClient();
-const PORT = 3000;
-
-// Middleware
-app.use(cors());
-app.use(express.json());
-
-// ... sisa kode tetap sama
-```
-
-Restart backend. Sekarang refresh `http://localhost:3001` — daftar event akan muncul.
+Tambahkan dua baris di atas ke `index.js`, lalu restart backend. Sekarang refresh `http://localhost:3001` — daftar event akan muncul.
 
 ---
 
