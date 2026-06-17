@@ -46,7 +46,7 @@ Pastikan backend dari Modul 4.2 sudah berjalan di terminal terpisah:
 ```bash
 # Terminal 1: jalankan backend
 cd event-registration-api
-npm run start
+node index.js
 ```
 
 Sekarang buat project Next.js di terminal baru:
@@ -62,7 +62,7 @@ Saat ditanya opsi, pilih:
 ✔ Would you like to use TypeScript? → No
 ✔ Would you like to use ESLint? → Yes
 ✔ Would you like to use Tailwind CSS? → Yes
-✔ Would you like your code inside a \`src/\` directory? → No
+✔ Would you like your code inside a `src/` directory? → No
 ✔ Would you like to use App Router? → Yes
 ✔ Would you like to use Turbopack? → Yes
 ✔ Would you like to customize the import alias? → No
@@ -98,7 +98,7 @@ Buka `http://localhost:3001` — halaman default Next.js muncul.
 
 Ganti isi `app/page.js` dengan:
 
-```jsx
+```javascript
 // app/page.js
 "use client";
 
@@ -185,7 +185,7 @@ export default function Home() {
                     {event.participants.length} peserta terdaftar
                   </span>
                   <Link
-                    href={\`/events/\${event.id}\`}
+                    href={`/events/${event.id}`}
                     className="text-sm font-medium text-blue-600 hover:text-blue-800"
                   >
                     Lihat Detail & Daftar →
@@ -211,7 +211,7 @@ Browser memblokir request dari `localhost:3001` (frontend) ke `localhost:3000` (
 
 Kalau kamu mengikuti Modul 4.2, CORS sudah diinstall dan diaktifkan di `index.js` backend. Pastikan di project backend (`event-registration-api`) sudah ada:
 
-```js
+```javascript
 const cors = require("cors");
 app.use(cors());
 ```
@@ -236,7 +236,7 @@ mkdir -p app/events/[id]
 
 Buat `app/events/[id]/page.js`:
 
-```jsx
+```javascript
 // app/events/[id]/page.js
 "use client";
 
@@ -258,7 +258,7 @@ export default function EventDetail() {
 
   // Fetch event data
   function fetchEvent() {
-    fetch(\`http://localhost:3000/api/events/\${params.id}\`)
+    fetch(`http://localhost:3000/api/events/${params.id}`)
       .then((res) => {
         if (!res.ok) throw new Error("Event tidak ditemukan");
         return res.json();
@@ -401,11 +401,11 @@ export default function EventDetail() {
 
           {submitMessage && (
             <div
-              className={\`mt-4 p-3 rounded-md text-sm \${
+              className={`mt-4 p-3 rounded-md text-sm ${
                 submitMessage.type === "success"
                   ? "bg-green-50 text-green-700 border border-green-200"
                   : "bg-red-50 text-red-700 border border-red-200"
-              }\`}
+              }`}
             >
               {submitMessage.text}
             </div>
@@ -455,7 +455,7 @@ Pastikan kedua server berjalan:
 ```bash
 # Terminal 1: Backend
 cd event-registration-api
-npm run start
+node index.js
 
 # Terminal 2: Frontend
 cd event-registration-frontend
@@ -468,8 +468,8 @@ Sekarang buka `http://localhost:3001` dan coba:
 2. **Klik "Lihat Detail & Daftar"** — masuk ke halaman detail event.
 3. **Isi form dan klik "Daftar Sekarang"** — data dikirim ke API → disimpan di database.
 4. **Daftar peserta langsung terupdate** — tanpa perlu refresh manual.
-5. **Coba daftar dengan email yang sama** — muncul pesan error "Email sudah terdaftar".
-6. **Restart backend** (`Ctrl+C` lalu `npm run start`) → refresh frontend → **data tetap ada**.
+5. **Coba daftar dengan email yang sama** — muncul pesan error "Email sudah terdaftar di event ini".
+6. **Restart backend** (`Ctrl+C` lalu `node index.js`) → refresh frontend → **data tetap ada**.
 
 ---
 
@@ -547,7 +547,7 @@ Setelah menyelesaikan modul ini, kamu diharapkan:
 Selamat! Dari Modul 1 sampai Modul 4, kamu sudah membangun:
 
 | Modul | Output |
-|-------|--------|
+| --- | --- |
 | Modul 1 | Halaman web statis (HTML + CSS + JS) |
 | Modul 2 | Aplikasi React/Next.js dengan Tailwind |
 | Modul 3 | REST API Express dengan data in-memory |
