@@ -43,6 +43,28 @@ Modul ini adalah lanjutan dari Web Foundations dan fokus pada ekosistem web mode
 
 ---
 
+## Daftar Materi Modul 5 – Deployment
+
+Modul ini fokus pada cara mem-publikasikan website ke internet: dari konsep deploy, hosting, sampai website live dengan URL publik.
+
+| Modul | Topik | Link |
+| --- | --- | --- |
+| 5.1 | **Pengenalan Deploy & Persiapan** | [Lihat Modul](modul-web-deployment/modul-5-1-pengenalan-deploy.md) |
+| 5.2 | **Deploy ke Vercel** | [Lihat Modul](modul-web-deployment/modul-5-2-deploy-vercel.md) |
+| 5.3 | **Sekilas Deploy Full-Stack (Opsional)** | [Lihat Modul](modul-web-deployment/modul-5-3-deploy-fullstack.md) |
+
+---
+
+## Final Project 🎓
+
+Sebagai proyek akhir GDGoC ITS, kamu akan **membangun dan men-deploy website portofolio pribadi** menggunakan teknologi yang sudah dipelajari (HTML/CSS/JS, React, atau Next.js), lalu mempublikasikannya ke internet.
+
+- **Panduan lengkap:** [Lihat Final Project](FINAL-PROJECT.md)
+- **Deadline:** 16 Agustus 2026
+
+---
+
+
 ## Pengumpulan Tugas
 
 | Tugas   | Modul Terkait | Deskripsi Singkat                                             | Pengumpulan                                                                                         |
